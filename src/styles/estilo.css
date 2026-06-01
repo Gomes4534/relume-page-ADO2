@@ -1,0 +1,219 @@
+header{
+    width: 100%;
+    height: 72px;
+
+    display: flex;
+    padding: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+a{
+    font-weight: 390px;
+    font-size: 16px;
+    color: black;
+}
+
+button{
+    font-size: 16px;
+    color: black;
+}
+
+.btn-wrapper{
+    display: flex;
+    gap: 16px;
+}
+
+.btn-wrapper > button {
+    padding: 8px 20px;
+    border: 1px solid black;
+}
+
+.btn-primary{
+    background-color: black;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 900px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    background-image: url(../assets/Breakpoint3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    gap: 32px;
+}
+
+.aside-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-actions{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 12px 24px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.btn-main{
+    background-color: white;
+    color: black;
+}
+
+.btn-main-primary{
+    background-color: transparent;
+    color: white;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    font-weight: 700;    
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section {
+    width: 100%;
+    height: 974px;
+
+    display: flex;
+    padding: 64px 112px;
+}
+
+.section-title {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.section-title > h1 {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-title > p {
+    color: black;
+    font-size: 18px;
+}
+
+.section-form {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input { 
+    border: 2px solid black;
+
+    padding: 12px 12px;
+}
+
+textarea {
+    border: 2px solid black;
+    
+    
+    width: 560px;
+    height: 180px;
+    
+    padding: 12px 12px;
+}
+
+.section-form > p {
+    font-size: 16px;
+    color: black;
+}
+
+.section-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-form > button {
+    width: 99px;
+    height: 48px;
+
+    background-color: black;
+    color: white;
+}
+
+footer {
+    width: 100%;
+
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    border-top: 1px solid #000000;
+}
+
+.footer-bottom > nav > a {
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer-bottom > p {
+    color: #000000;
+    font-size: 14px;
+}
