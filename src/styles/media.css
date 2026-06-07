@@ -1,0 +1,48 @@
+@media (min-width: 375px) and (max-width: 767px) {
+
+     img {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    nav {
+       display: none;
+    }
+
+    .btn-wrapper {
+        display: none;
+    }
+
+
+
+    main{
+        padding: 20px;
+        height: 820px;
+    }
+
+    .aside-content{
+        gap: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .aside-actions{
+        width: 100%;
+    }
+    
+    .aside-actions button{
+        width: 96px;
+        height: 48px;
+
+    }
+}
+
+
