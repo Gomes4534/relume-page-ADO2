@@ -43,6 +43,94 @@
         height: 48px;
 
     }
+
+    section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 64px;
 }
 
 
+
+.section-title h1 {  /*alinhar o bloco a esquerda*/
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section-title p {  /*alinhar o bloco a esquerda*/
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+.section-form {
+    gap: 24px;
+}
+
+.section-form textarea {
+    padding: 12px 12px;
+}
+
+input {
+    width: 100%;
+    height: 48px;
+    padding: 0 12px;
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 12px 0px;
+}
+
+.section-checkbox {
+    gap: 8px;
+}
+
+.section-checkbox input {
+    width: 18px;
+    height: 18px;
+}
+
+button {
+    width: 98px;
+    height: 48px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 48px;
+    gap: 48px;
+}
+
+.footer-links {
+    flex-direction: column;
+    gap: 24px;
+    font-size: 14px;
+}
+
+.footer-bottom  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 48px;
+}
+
+.footer-bottom > a {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-bottom > p {
+    display: flex;
+    justify-content: center;
+}
+
+}
