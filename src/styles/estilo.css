@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     height: 72px;
 
@@ -8,47 +8,52 @@ header{
     align-items: center;
 }
 
-.header-nav{
+.header-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 16px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
 
-a{
+a {
     font-weight: 390px;
     font-size: 16px;
     color: black;
 }
 
-button{
+button {
     font-size: 16px;
     color: black;
 }
 
-.btn-wrapper{
+.btn-wrapper {
     display: flex;
     gap: 16px;
 }
 
-.btn-wrapper > button {
+.btn-wrapper>button {
     padding: 8px 20px;
     border: 1px solid black;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: black;
     color: white;
 }
 
-main{
+.icon-nav {
+    display: none;
+    visibility: hidden;
+}
+
+main {
     width: 100%;
     height: 900px;
 
@@ -61,7 +66,7 @@ main{
     background-size: cover;
 }
 
-aside{
+aside {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -69,42 +74,42 @@ aside{
     gap: 32px;
 }
 
-.aside-content{
+.aside-content {
     display: flex;
     flex-direction: column;
 }
 
-.aside-actions{
+.aside-actions {
     display: flex;
     gap: 16px;
     justify-content: center;
     align-items: center;
 }
 
-button{
+button {
     padding: 12px 24px;
     border: 1px solid white;
     font-size: 16px;
 }
 
-.btn-main{
+.btn-main {
     background-color: white;
     color: black;
 }
 
-.btn-main-primary{
+.btn-main-primary {
     background-color: transparent;
     color: white;
 }
 
-h1{
+h1 {
     color: white;
     display: flex;
     font-size: 56px;
-    font-weight: 700;    
+    font-weight: 700;
 }
 
-p{
+p {
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -124,13 +129,13 @@ section {
     flex-direction: column;
 }
 
-.section-title > h1 {
+.section-title>h1 {
     color: black;
     display: flex;
     justify-content: flex-start;
 }
 
-.section-title > p {
+.section-title>p {
     color: black;
     font-size: 18px;
 }
@@ -142,7 +147,7 @@ section {
     justify-content: flex-start;
 }
 
-input { 
+input {
     border: 2px solid black;
 
     padding: 12px 12px;
@@ -150,15 +155,15 @@ input {
 
 textarea {
     border: 2px solid black;
-    
-    
+
+
     width: 560px;
     height: 180px;
-    
+
     padding: 12px 12px;
 }
 
-.section-form > p {
+.section-form>p {
     font-size: 16px;
     color: black;
 }
@@ -169,7 +174,7 @@ textarea {
     gap: 8px;
 }
 
-.section-form > button {
+.section-form>button {
     width: 99px;
     height: 48px;
 
@@ -207,13 +212,12 @@ footer {
     border-top: 1px solid #000000;
 }
 
-.footer-bottom > nav > a {
+.footer-bottom>nav>a {
     font-size: 14px;
     color: #000000;
 }
 
-.footer-bottom > p {
+.footer-bottom>p {
     color: #000000;
     font-size: 14px;
 }
-
